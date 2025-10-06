@@ -1,0 +1,42 @@
+<CATALOG>
+  <CD>
+    <TITLE>Gold: Greatest Hits</TITLE>
+    <ARTIST>Abba</ARTIST>
+    <COUNTRY>UK</COUNTRY>
+    <COMPANY>Polar</COMPANY>
+    <PRICE>5.49</PRICE>
+    <YEAR>1993</YEAR>
+  </CD>
+  <CD>
+    <TITLE>Rubber Soul</TITLE>
+    <ARTIST>The Beatles</ARTIST>
+    <COUNTRY>UK</COUNTRY>
+    <COMPANY>EMI</COMPANY>
+    <PRICE>7.99</PRICE>
+    <YEAR>2009</YEAR>
+  </CD>
+  <CD>
+    <TITLE>The Rise and Fall of Ziggy Stardust and the Spiders from Mars</TITLE>
+    <ARTIST>David Bowie</ARTIST>
+    <COUNTRY>UK</COUNTRY>
+    <COMPANY>PLG</COMPANY>
+    <PRICE>5.99</PRICE>
+    <YEAR>2012</YEAR>
+  </CD>
+  <CD>
+    <TITLE>The Element of Freedom</TITLE>
+    <ARTIST>Alicia Keys</ARTIST>
+    <COUNTRY>USA</COUNTRY>
+    <COMPANY>Sony Music</COMPANY>
+    <PRICE>4.99</PRICE>
+    <YEAR>2009</YEAR>
+  </CD>
+  <CD>
+    <TITLE>Louder Than Bombs</TITLE>
+    <ARTIST>The Smiths</ARTIST>
+    <COUNTRY>UK</COUNTRY>
+    <COMPANY>Rhino</COMPANY>
+    <PRICE>5.49</PRICE>
+    <YEAR>2012</YEAR>
+  </CD>
+</CATALOG>

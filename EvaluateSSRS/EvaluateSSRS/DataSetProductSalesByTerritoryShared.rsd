@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DataSourceEvaluateSSRS</DataSourceReference>
+      <CommandText>SELECT sa.salesdate as SalesDate, ter.Name as Territory, cat.Name as Subcategory, pr.Name as Product, (sa.Quantity * pr.StandardCost) as Sales, sa.Quantity
+FROM sales sa
+INNER JOIN SalesTerritory ter ON sa.TerritoryId = ter.TerritoryId
+INNER JOIN product pr ON sa.ProductId = pr.ProductId
+INNER JOIN ProductCategory cat ON pr.ProductCategoryId = cat.ProductCategoryId
+WHERE sa.SalesDate BETWEEN '2015-01-05' AND '2015-01-06';</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="salesdate">
+        <DataField>SalesDate</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="Territory">
+        <DataField>Territory</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Subcategory">
+        <DataField>Subcategory</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Product">
+        <DataField>Product</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Sales">
+        <DataField>Sales</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Quantity">
+        <DataField>Quantity</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

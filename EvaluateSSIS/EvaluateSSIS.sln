@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "EvaluateSSIS", "EvaluateSSIS\EvaluateSSIS.dtproj", "{DD4B00E0-47CD-45E1-8328-E7B0DFC54DBE}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EvaluateSSISDatabase", "EvaluateSSISDatabase\EvaluateSSISDatabase.sqlproj", "{D231C99E-71F5-41F6-8E88-6F12767955B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD4B00E0-47CD-45E1-8328-E7B0DFC54DBE}.Debug|Any CPU.ActiveCfg = Development
+		{DD4B00E0-47CD-45E1-8328-E7B0DFC54DBE}.Debug|Any CPU.Build.0 = Development
+		{DD4B00E0-47CD-45E1-8328-E7B0DFC54DBE}.Development|Any CPU.ActiveCfg = Development
+		{DD4B00E0-47CD-45E1-8328-E7B0DFC54DBE}.Development|Any CPU.Build.0 = Development
+		{DD4B00E0-47CD-45E1-8328-E7B0DFC54DBE}.Release|Any CPU.ActiveCfg = Development
+		{DD4B00E0-47CD-45E1-8328-E7B0DFC54DBE}.Release|Any CPU.Build.0 = Development
+		{D231C99E-71F5-41F6-8E88-6F12767955B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D231C99E-71F5-41F6-8E88-6F12767955B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D231C99E-71F5-41F6-8E88-6F12767955B0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D231C99E-71F5-41F6-8E88-6F12767955B0}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{D231C99E-71F5-41F6-8E88-6F12767955B0}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{D231C99E-71F5-41F6-8E88-6F12767955B0}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{D231C99E-71F5-41F6-8E88-6F12767955B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D231C99E-71F5-41F6-8E88-6F12767955B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D231C99E-71F5-41F6-8E88-6F12767955B0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40E8BFD5-E3C3-4E43-91F1-D5CE5CB849F6}
+	EndGlobalSection
+EndGlobal
