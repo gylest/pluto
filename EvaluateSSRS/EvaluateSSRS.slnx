@@ -1,0 +1,18 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="DebugLocal" />
+    <BuildType Name="Release" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path="ReadMe.md" />
+  </Folder>
+  <Project Path="EvaluateSSRS/EvaluateSSRS.rptproj">
+    <Deploy />
+  </Project>
+  <Project Path="EvaluateSSRSDatabase/EvaluateSSRSDatabase.sqlproj" Id="a48b4d71-6c71-408e-8478-f260db529978">
+    <BuildType Solution="DebugLocal|*" Project="Debug" />
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
